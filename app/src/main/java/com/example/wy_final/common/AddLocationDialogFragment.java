@@ -6,14 +6,14 @@ import android.app.Dialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
-import android.support.v7.app.AppCompatDialogFragment;
+import android.support.v4.app.DialogFragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.EditText;
 
 import com.example.wy_final.R;
 
-public class AddLocationDialogFragment extends AppCompatDialogFragment {
+public class AddLocationDialogFragment extends DialogFragment {
     private EditText mCityEditText;
 
     private OnClickListener mOkClickListner;
